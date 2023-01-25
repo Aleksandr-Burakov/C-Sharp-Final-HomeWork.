@@ -1,10 +1,16 @@
 ﻿using static System.Console;
 Clear();
+
+// Ввод размера массива.
+
 WriteLine("Введите количество рядов : ");
 int row = Convert.ToInt32(ReadLine());
 WriteLine("Введите количество столбцов : ");
 int column = Convert.ToInt32(ReadLine());
 Clear();
+
+// Словарь элементов.
+
 string[,] word = new string[row, column];
 var dict = new Dictionary<int, string>()
 {
@@ -19,3 +25,6 @@ var dict = new Dictionary<int, string>()
 {25, "word"}, {26, "333"}, {27, "hello"},
 {28, "Russia"}, {29, "Denmark"}, {30, "Kazan"}
 };
+
+
+// 
