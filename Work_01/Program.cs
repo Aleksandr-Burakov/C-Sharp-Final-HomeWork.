@@ -50,7 +50,7 @@ void FileArray(string[,] array)
         for (int j = 0; j < array.GetLength(1); j++)
         {
             {
-                int q = new Random().Next(1, 24);
+                int q = new Random().Next(1, 30);
                 word[i, j] = dict[q];
             }
         }
