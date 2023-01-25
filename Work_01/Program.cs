@@ -71,20 +71,20 @@ void FinalArray(string[,] array)
             {
                 if (word1[t].Length <= 3)
                 {
-                    Write($" {word1[  t  ]}, ");
-                }                
-            }   
-        }  
+                    Write($" {word1[t]}, ");
+                }
+            }
+        }
     }
 }
 
 
 FileArray(word);
-WriteLine("Полученый первоначальный массив :");
+WriteLine("Полученный первоначальный массив :");
 WriteLine();
 PrintArray(word);
 WriteLine();
-WriteLine("Полученый массив слов из 3 букв и менее :");
+WriteLine("Полученный массив элементов из 3 символов и менее :");
 WriteLine();
 FinalArray(word);
 WriteLine();
