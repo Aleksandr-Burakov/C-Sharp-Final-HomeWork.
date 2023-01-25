@@ -56,3 +56,35 @@ void FileArray(string[,] array)
         }
     }
 }
+
+// Метод нахождения и вывода элементов массива с количеством символов 3 и меньше.
+
+void FinalArray(string[,] array)
+{
+    for (int i = 0; i < word.GetLength(0); i++)
+    {
+        for (int j = 0; j < word.GetLength(1); j++)
+        {
+            string s = word[i, j];
+            string[] word1 = s.Split(' ');
+            for (int t = 0; t < word1.Count(); t++)
+            {
+                if (word1[t].Length <= 3)
+                {
+                    Write($" {word1[  t  ]}, ");
+                }                
+            }   
+        }  
+    }
+}
+
+
+FileArray(word);
+WriteLine("Полученый первоначальный массив :");
+WriteLine();
+PrintArray(word);
+WriteLine();
+WriteLine("Полученый массив слов из 3 букв и менее :");
+WriteLine();
+FinalArray(word);
+WriteLine();
