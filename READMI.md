@@ -1,1 +1,1 @@
-Итоговая работа за первую четверть. --> [Задание.](/Work_01/task.md) [Описание.](/Work_01/SolutionDescription.md)  [Блок схема.](/Work_01/diagram.drawio)  [Код.](/Work_01/Program.cs)
+Итоговая работа за первую четверть. --> [Задание.](/Work_01/task.md) [Описание.](/Work_01/SolutionDescription.md)  [Блок схема.](/Work_01/diagram.drawio.png)  [Код.](/Work_01/Program.cs)
